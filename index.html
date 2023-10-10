@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pomodoro, gestion de son temps de travail">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <header class="main-header">
+        <h1 class="title">Le <span>pomodoro</span></h1>
+    </header>
+    <div class="container">
+        <div class="group">
+            <h2 class="group-title">Travail</h2>
+            <div class="content">
+                <p class="work-minutes">60</p>
+                <p>:</p>
+                <p class="work-seconds">00</p>
+            </div>
+        </div>
+        <div class="group">
+            <h2 class="group-title">Repos</h2>
+            <div class="content">
+                <p class="rest-minutes">10</p>
+                <p>:</p>
+                <p class="rest-seconds">00</p>
+            </div>
+        </div>
+    </div>
+    <div class="button">
+        <button class="btn btn-lancer">Lancer</button>
+        <button class="btn btn-reset">Reset</button>
+    </div>
+    <div class="cycle">
+        <p class="cycle-name">cycle(s) :&nbsp;</p>
+        <p class="cycle-value">0</p>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

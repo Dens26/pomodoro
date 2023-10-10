@@ -1,0 +1,56 @@
+*, ::after, ::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(90deg, #03e6f1, #efbf94);
+    padding: clamp(10px,5vw,50px);
+}
+.title{
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: clamp(2rem,10vw,4.5rem);;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.group{
+    background: whitesmoke;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.group-title{
+    text-align: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.button{
+    padding: 15px;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px black;
+}
+.cycle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.cycle-value{
+    font-weight: 700;
+}
